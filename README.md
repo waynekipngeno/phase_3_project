@@ -118,9 +118,16 @@ The project repository is organized with the following structure:
 
 - `index.ipynb`: The main notebook containing data preparation, exploratory analysis, model training, and evaluation.
 
-- **images**: If there are any images or plots generated during the analysis, they are saved in this directory.
-  - `plot1.png`: Example visualization 1.
-  - `plot2.png`: Example visualization 2.
+- **Images/**: Stores various images and visualizations generated during the project.
+
+    - **base_model_matrix.png**: Confusion matrix for the base logistic regression model.
+    - **churn_distribution.png**: Churn distribution (bar plot).
+    - **correlation_heatmap.png**: A correlation heatmap of all features.
+    - **feature_importance.png**: A barplot showing feature importance across various models.
+    - **important_feat_corr.png**: Plots showing the relationship between important features and the target variable.
+    - **roc_curve.png**: ROC curve showing AUC for various class_weights.
+    - **multiple_model_bar.png**: A bar chart showing crucial performance metrics of Decision Tree, Random Forest, Gradient Boosting, and SVM.
+    - **numeric_features_histogram.png**: Histogram showing the distribution of numerical features.
   
 - **Project_Presentation.pdf**: Access the comprehensive project presentation that provides an in-depth overview of our work, including model analysis, insights, and recommendations.
 
