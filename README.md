@@ -51,6 +51,10 @@ List the Python packages and libraries used for the project, categorizing them b
 
 ## Data
 
+### Source Data
+
+- **Data Source**: The dataset used for this project is the "Churn in Telecom's dataset" sourced from Kaggle. You can find the dataset at [this Kaggle link](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset). This dataset contains information related to customer interactions and behavior at SyriaTel.
+
 ### Dataset Size
 
 - The dataset consists of 3333 rows and 21 columns.
@@ -86,16 +90,6 @@ The dataset contains a total of 21 features, including both numerical and catego
 The target variable for this project is "churn," which is a binary variable indicating whether a customer has churned (1) or not (0).
 
 
-### Source Data
-
-- **Data Source**: The dataset used for this project is the "Churn in Telecom's dataset" sourced from Kaggle. You can find the dataset at [this Kaggle link](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset). This dataset contains information related to customer interactions and behavior at SyriaTel.
-
-### Data Acquisition
-
-Explain how the data was collected or obtained. Include instructions or steps for others to follow if they want to acquire the dataset.
-
-
-
 ### Data Preprocessing
 
 The following data preprocessing steps were performed on the "Churn in Syriatel's dataset":
@@ -115,9 +109,6 @@ The following data preprocessing steps were performed on the "Churn in Syriatel'
 These preprocessing steps were crucial in preparing the dataset for model development and analysis.
 
 
-
-## Code Structure
-
 ## Code Structure
 
 The project repository is organized with the following structure:
@@ -130,6 +121,8 @@ The project repository is organized with the following structure:
 - **images**: If there are any images or plots generated during the analysis, they are saved in this directory.
   - `plot1.png`: Example visualization 1.
   - `plot2.png`: Example visualization 2.
+  
+- **Project_Presentation.pdf**: Access the comprehensive project presentation that provides an in-depth overview of our work, including model analysis, insights, and recommendations.
 
 - **README.md**: The main README file containing an overview of the project, installation instructions, data sources, code structure, and more.
 
